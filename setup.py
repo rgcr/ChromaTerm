@@ -36,7 +36,7 @@ setup(
     long_description_content_type="text/markdown",
     packages=find_packages(),
 
-    python_requires=">=3.6.0",
+    python_requires=">=3.9.0",
     classifiers=[
         "Intended Audience :: Information Technology",
         "Intended Audience :: System Administrators",

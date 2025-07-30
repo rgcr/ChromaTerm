@@ -1,7 +1,7 @@
 *.pyc
 .coverage
+*.egg-info
 build/
-chromaterm.egg-info/
 dist/
 
 Build.org

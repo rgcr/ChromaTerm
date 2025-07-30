@@ -20,7 +20,7 @@ All notable changes to ChromaTerm2 will be documented in this file.
   - Removed `__main__.py` file
 - Updated all internal imports to use relative imports
 - Updated dependencies to use modern versions (PyYAML>=5.1, psutil)
-- Updated Python version support (>=3.6, tested up to 3.13)
+- Updated Python version support (>=3.9, tested up to 3.13)
 - Improved project metadata and package information
 
 ### Fixed
