@@ -12,7 +12,8 @@ from ctypes.util import find_library
 
 import yaml
 
-from chromaterm import Color, Config, Palette, Rule, __version__
+from .core import Color, Config, Palette, Rule
+from .__version__ import __version__
 
 # Possible locations of the config file, without the extension. Most-specific
 # locations lead in the list.
@@ -460,8 +461,8 @@ def main(args=None, max_wait=None, write_default=True):
 
         # Write default config if not there
         if write_default and not os.access(args.config, os.F_OK):
-            import chromaterm.default_config
-            chromaterm.default_config.write_default_config(args.config)
+            from . import default_config
+            default_config.write_default_config(args.config)
 
     config = Config(benchmark=args.benchmark)
 
@@ -469,7 +470,7 @@ def main(args=None, max_wait=None, write_default=True):
     if args.benchmark:
         atexit.register(config.print_benchmark_results)
 
-    import chromaterm.platform.unix as platform
+    from .platform import unix as platform
 
     if args.program:
         # ChromaTerm is spawning the program in a pty; stdin is forwarded
@@ -505,7 +506,3 @@ def main(args=None, max_wait=None, write_default=True):
         os.close(data_fd) if isinstance(data_fd, int) else data_fd.close()
 
     return os.wait()[1] >> 8 if args.program else 0
-
-
-if __name__ == '__main__':
-    sys.exit(main())

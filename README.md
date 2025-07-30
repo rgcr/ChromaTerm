@@ -1,21 +1,21 @@
-# ChromaTerm
+# ChromaTerm2
 
-[![Build status](https://img.shields.io/github/workflow/status/hSaria/ChromaTerm/CI/main)](https://github.com/hSaria/ChromaTerm/actions?query=workflow%3ACI)
-[![Coverage status](https://coveralls.io/repos/github/hSaria/ChromaTerm/badge.svg)](https://coveralls.io/github/hSaria/ChromaTerm)
-[![Downloads](https://static.pepy.tech/personalized-badge/chromaterm?period=total&units=international_system&left_color=grey&right_color=brightgreen&left_text=downloads)](https://pepy.tech/project/chromaterm)
-[![Maintainability](https://img.shields.io/codeclimate/maintainability/hSaria/ChromaTerm)](https://codeclimate.com/github/hSaria/ChromaTerm)
-[![PyPI version](https://badge.fury.io/py/chromaterm.svg)](https://badge.fury.io/py/chromaterm)
+[![PyPI version](https://badge.fury.io/py/chromaterm2.svg)](https://badge.fury.io/py/chromaterm2)
 
 ChromaTerm (`ct`) is a Python script that colors your terminal's output using
 regular expressions. It even works with interactive programs, like SSH.
+
+> **Original project by [hSaria](https://github.com/hSaria). This is a maintained and refactored version.**
 
 ![alt text](https://github.com/hSaria/ChromaTerm/raw/main/.github/junos-show-interface.png "Example output")
 
 ## Installation
 
 ```shell
-pip3 install chromaterm
+pip3 install chromaterm2
 ```
+
+> **Note**: This is a maintained fork of the original ChromaTerm project. The original [chromaterm](https://github.com/hSaria/ChromaTerm) package is archived.
 
 ## Usage
 
@@ -154,8 +154,12 @@ of their unique features.
 ## Help
 
 If you've got any questions or suggestions, please open up an
-[issue](https://github.com/hSaria/ChromaTerm/issues/new/choose) (always
+[issue](https://github.com/rgcr/ChromaTerm/issues/new) (always
 appreciated).
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for detailed information about changes in each version.
 
 ### Windows support
 

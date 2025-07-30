@@ -1,0 +1,61 @@
+[project]
+name = "chromaterm2"
+dynamic = ["version"]
+description = "Color your Terminal with Regex! (Maintained fork of ChromaTerm)"
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "MIT"}
+authors = [
+    {name = "rgcr", email = "roger.dev@pm.me"},
+]
+maintainers = [
+    {name = "rgcr", email = "roger.dev@pm.me"},
+]
+# Original author: hSaria (sariahajjar@gmail.com)
+keywords = ["terminal", "color", "regex", "highlighting", "cli"]
+classifiers = [
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: System Administrators", 
+    "Intended Audience :: Telecommunications Industry",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Terminals",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "psutil",
+    "pyyaml>=5.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/rgcr/ChromaTerm"
+Repository = "https://github.com/rgcr/ChromaTerm.git"
+Issues = "https://github.com/rgcr/ChromaTerm/issues"
+Changelog = "https://github.com/rgcr/ChromaTerm/blob/main/CHANGELOG.md"
+
+[project.scripts]
+ct = "chromaterm.cli:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.1",
+]
+
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+version = {attr = "chromaterm.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["chromaterm*"]

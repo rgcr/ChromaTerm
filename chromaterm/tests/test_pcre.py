@@ -39,7 +39,7 @@ def test_free_memory(monkeypatch):
 
 def test_groupindex():
     '''Lookup named groups.'''
-    regex = chromaterm.pcre.Pattern(br'(?P<hi>hello)( )(?<place>world)')
+    regex = chromaterm.pcre.Pattern(br'(?P<hi>hello)( )(?P<place>world)')
 
     assert regex.groupindex['hi'] == 1
     assert regex.groupindex.get('place') == 3

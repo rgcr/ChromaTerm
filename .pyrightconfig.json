@@ -1,0 +1,8 @@
+{
+  "typeCheckingMode": "basic",
+  "reportMissingImports": true,
+  "reportMissingModuleSource": true,
+  "venvPath": ".",
+  "venv": ".venv",
+  "extraPaths": ["./src"]
+}

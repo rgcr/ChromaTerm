@@ -3,7 +3,7 @@ import os
 
 import yaml
 
-from chromaterm import Color, Palette, Rule
+from .core import Color, Palette, Rule
 
 # pylint: disable=line-too-long
 
