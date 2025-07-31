@@ -52,4 +52,4 @@ The original project is archived at: https://github.com/hSaria/ChromaTerm
 - **Python 3.6+ support**: Compatible with modern Python versions
 - **Community driven**: Open to contributions and feedback
 
-Repository: https://github.com/rgcr/ChromaTerm
+Repository: https://github.com/rgcr/ChromaTerm2

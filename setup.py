@@ -18,7 +18,7 @@ with codecs.open(os.path.join(here, "chromaterm", "__version__.py"), "r", "utf-8
 
 setup(
     name="chromaterm2",
-    url="https://github.com/rgcr/ChromaTerm",
+    url="https://github.com/rgcr/ChromaTerm2",
     license="MIT",
     description="Color your Terminal with Regex! (Maintained fork of ChromaTerm)",
     version=about["__version__"],

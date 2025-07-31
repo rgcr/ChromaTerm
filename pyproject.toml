@@ -33,10 +33,10 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/rgcr/ChromaTerm"
-Repository = "https://github.com/rgcr/ChromaTerm.git"
-Issues = "https://github.com/rgcr/ChromaTerm/issues"
-Changelog = "https://github.com/rgcr/ChromaTerm/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/rgcr/ChromaTerm2"
+Repository = "https://github.com/rgcr/ChromaTerm2.git"
+Issues = "https://github.com/rgcr/ChromaTerm2/issues"
+Changelog = "https://github.com/rgcr/ChromaTerm2/blob/main/CHANGELOG.md"
 
 [project.scripts]
 ct = "chromaterm.cli:main"
