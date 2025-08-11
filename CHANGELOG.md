@@ -2,7 +2,7 @@
 
 All notable changes to ChromaTerm2 will be documented in this file.
 
-## [2.0.0] - 2025-01-30
+## [2.0.0] 
 
 ### Added
 - New maintainer: rgcr (roger.dev@pm.me)
