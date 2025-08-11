@@ -5,7 +5,7 @@ All notable changes to ChromaTerm2 will be documented in this file.
 ## [2.0.0] 
 
 ### Added
-- New maintainer: rgcr (roger.dev@pm.me)
+- New maintainer: rgcr
 - Modern Python packaging with `pyproject.toml`
 - Proper credit to original author (hSaria) in README and code
 
